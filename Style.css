@@ -6,6 +6,7 @@ h1 {
 }
 p {
     color: red;
-}button{
+}
+button{
     transition: 1.5s;
 }
