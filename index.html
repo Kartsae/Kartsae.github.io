@@ -5,8 +5,17 @@
             <link rel="stylesheet" href="Style.css">
             <h1>Hello World!</h1>
             <p>Mun tervehdys maailmalle</p>
-            <button type="button" id="button1"
-            onclick="width = '10'">
-        Click me for datetime!</button>
+            <button type="button" id="button1">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeButton()">&times;</a>
+            Click me!</button>
+        <scrip>
+            function openButton() {
+                document.getElementById("button1").style.width = 100%;
+            }
+
+            function closeButton() {
+                document.getElementById("button1").style.width = 0%;
+            }
+        </scrip>
         </body>
 </html>
